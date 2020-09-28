@@ -301,21 +301,11 @@
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Crénaux 1'] !== null ? autolinker.link(feature.properties['Crénaux 1'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <td colspan="2">' + (feature.properties['Crénaux 2'] !== null ? autolinker.link(feature.properties['Crénaux 2'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['x'] !== null ? autolinker.link(feature.properties['x'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <td colspan="2">' + (feature.properties['y'] !== null ? autolinker.link(feature.properties['y'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['field_6'] !== null ? autolinker.link(feature.properties['field_6'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['field_7'] !== null ? autolinker.link(feature.properties['field_7'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
